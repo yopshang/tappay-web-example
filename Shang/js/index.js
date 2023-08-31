@@ -1,6 +1,7 @@
 (function NWP(){
     function setForm(){
         // const $NWP =  document.querySelector('.NWP')
+        console.log('這段應該要刪除')
         var $iframe = document.createElement("iframe");
         $iframe.src = "http://127.0.0.1:5500/fakeiframe.html";
         $iframe.width = "400";

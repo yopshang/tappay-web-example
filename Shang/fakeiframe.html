@@ -6,24 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-<form>
-    <div>
-        <label for="">Email address</label>
-        <input type="text" placeholder="Email address">
-    </div>
-    <div>
-        <label for="">卡號</label>
-        <input type="text" placeholder="卡號">
-    </div>
-    <div>
-        <label for="">E卡片到期日</label>
-        <input type="text" placeholder="卡片到期日">
-    </div>
-    <div>
-        <label for="">卡片後三碼</label>
-        <input type="text" placeholder="卡片後三碼">
-    </div>
-    <button type="submit" class="btn btn-default">Pay</button>
-</form>
+    <form>
+        <div>
+            <label class="emaillabel" for="">Email address</label>
+            <input type="text" placeholder="Email address">
+        </div>
+        <div>
+            <label for="CardNumber">卡號</label>
+            <input id="CardNumber"  maxlength="16" type="text" placeholder="卡號">
+        </div>
+        <div>
+            <label for="">E卡片到期日</label>
+            <input type="text" placeholder="卡片到期日">
+        </div>
+        <div>
+            <label for="">卡片後三碼</label>
+            <input type="text" placeholder="卡片後三碼">
+        </div>
+        <button type="submit" class="btn btn-default">Pay</button>
+    </form>
 </body>
+<style>
+    
+</style>
+<script src="./fakeiframe.js"></script>
 </html>
